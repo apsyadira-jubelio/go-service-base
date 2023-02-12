@@ -1,0 +1,9 @@
+version: "2.3"
+services:
+  jubelio-chat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chat-webhook
+    ports:
+      - 8083:8083

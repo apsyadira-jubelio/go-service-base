@@ -1,0 +1,11 @@
+tmp/
+bin/
+
+.env
+chat-webhook
+
+vendor/
+_*
+*.test
+.DS_Store
+*.out
